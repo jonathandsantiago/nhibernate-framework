@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+    <UserSecretsId>3535f81a-2fb4-4da8-bc05-9cba681e1edd</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentNHibernate" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="MySql.Data" Version="8.0.16" />
+    <PackageReference Include="NHibernate" Version="5.2.6" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.110" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio\Dominio.csproj" />
+    <ProjectReference Include="..\Framework.Presentation.Mvc\Framework.Presentation.Mvc.csproj" />
+    <ProjectReference Include="..\Mapeamento\Mapeamento.csproj" />
+    <ProjectReference Include="..\ServicoDistribuido\ServicoDistribuido.csproj" />
+    <ProjectReference Include="..\Servico\Servico.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\TesteGuid\Create.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\TesteGuid\Detail.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\TesteGuid\Edit.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\TesteGuid\Index.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Helpers\TestesGuid\" />
+  </ItemGroup>
+
+</Project>

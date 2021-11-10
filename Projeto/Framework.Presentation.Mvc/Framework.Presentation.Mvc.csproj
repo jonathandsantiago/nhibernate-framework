@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Authors>Jonathan Dias Campos Santiago</Authors>
+    <Version>3.2.0.30</Version>
+    <Product>Core framework apresentacao mvc</Product>
+    <AssemblyName>Framework.Presentation.Mvc</AssemblyName>
+    <RootNamespace>Framework.Presentation.Mvc</RootNamespace>
+    <PackageId>Framework.Presentation.MvcCore</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://secure.gravatar.com/avatar/a82c03402497b2e58fd65038a3699b30?s=512&amp;r=g&amp;d=retro</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Domain.Base\Framework.Domain.Base.csproj" />
+    <ProjectReference Include="..\Framework.Domain.Model\Framework.Domain.Model.csproj" />
+    <ProjectReference Include="..\Framework.Service.Distributed\Framework.Service.Distributed.csproj" />
+  </ItemGroup>
+
+</Project>

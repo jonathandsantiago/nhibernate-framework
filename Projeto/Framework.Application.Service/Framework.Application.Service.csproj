@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+    <Version>3.2.0.30</Version>
+    <Authors>Jonathan Dias Campos Santiago</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://secure.gravatar.com/avatar/a82c03402497b2e58fd65038a3699b30?s=512&amp;r=g&amp;d=retro</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Data.Repository\Framework.Data.Repository.csproj" />
+    <ProjectReference Include="..\Framework.Domain.Base\Framework.Domain.Base.csproj" />
+    <ProjectReference Include="..\Framework.Validator\Framework.Validator.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio.ViewMode\Dominio.ViewMode.csproj" />
+    <ProjectReference Include="..\Dominio\Dominio.csproj" />
+    <ProjectReference Include="..\Framework.Service.Distributed\Framework.Service.Distributed.csproj" />
+    <ProjectReference Include="..\Servico\Servico.csproj" />
+  </ItemGroup>
+
+</Project>

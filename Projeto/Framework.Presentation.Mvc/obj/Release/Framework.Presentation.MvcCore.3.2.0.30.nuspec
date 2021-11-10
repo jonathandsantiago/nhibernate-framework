@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Framework.Presentation.MvcCore</id>
+    <version>3.2.0.30</version>
+    <authors>Jonathan Dias Campos Santiago</authors>
+    <owners>Jonathan Dias Campos Santiago</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://secure.gravatar.com/avatar/a82c03402497b2e58fd65038a3699b30?s=512&amp;r=g&amp;d=retro</iconUrl>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.2">
+        <dependency id="Framework.Domain.Base" version="3.2.0.30" exclude="Build,Analyzers" />
+        <dependency id="Framework.Domain.Model" version="3.2.0.30" exclude="Build,Analyzers" />
+        <dependency id="Framework.Service.Distributed" version="3.2.0.30" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="2.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Pessoal\Framework\Projeto\Framework.Presentation.Mvc\bin\Release\netcoreapp2.2\Framework.Presentation.Mvc.dll" target="lib\netcoreapp2.2\Framework.Presentation.Mvc.dll" />
+  </files>
+</package>

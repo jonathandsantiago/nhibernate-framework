@@ -1,0 +1,16 @@
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\bin\Release\netstandard2.0\Framework.Domain.Base.deps.json
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\bin\Release\netstandard2.0\Framework.Domain.Base.dll
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\bin\Release\netstandard2.0\Framework.Domain.Base.pdb
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\bin\Release\netstandard2.0\Framework.Helper.dll
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\bin\Release\netstandard2.0\Framework.Validator.dll
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\bin\Release\netstandard2.0\System.ComponentModel.Annotations.dll
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\bin\Release\netstandard2.0\Framework.Validator.pdb
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\bin\Release\netstandard2.0\Framework.Helper.pdb
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\bin\Release\netstandard2.0\System.ComponentModel.Annotations.xml
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\obj\Release\netstandard2.0\Framework.Domain.Base.csprojAssemblyReference.cache
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\obj\Release\netstandard2.0\Framework.Domain.Base.csproj.CoreCompileInputs.cache
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\obj\Release\netstandard2.0\Framework.Domain.Base.AssemblyInfoInputs.cache
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\obj\Release\netstandard2.0\Framework.Domain.Base.AssemblyInfo.cs
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\obj\Release\netstandard2.0\Framework.Domain.Base.csproj.CopyComplete
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\obj\Release\netstandard2.0\Framework.Domain.Base.dll
+D:\Pessoal\Framework\Projeto\Framework.Domain.Base\obj\Release\netstandard2.0\Framework.Domain.Base.pdb
